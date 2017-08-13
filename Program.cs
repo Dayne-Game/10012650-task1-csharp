@@ -16,14 +16,14 @@ namespace _10012650_task1_csharp
 
            Console.WriteLine("Welcome to the degrees calculator!");
            Console.WriteLine();
-           Console.WriteLine("Fahrenheit                 Code: f");
+           Console.WriteLine("Fahrenheit                 Code: F");
            Console.WriteLine("Celsius                    Code: c");
            Console.WriteLine();
            Console.Write("Enter the code to select Between Fahrenheit and Celsius: ");
            
 
-           var celsius = "c";
-           var Fahrenheit = "f";
+           var celsius = "C";
+           var Fahrenheit = "F";
            var userInput = Console.ReadLine();
 
            if (userInput == celsius)
